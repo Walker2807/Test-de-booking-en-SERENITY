@@ -7,7 +7,7 @@ Feature: API Aerolineas
 
   @CP01
   Scenario: Obtener todas las aerolíneas exitosamente
-    Given el actor establece el endpoint para obtener las aerolineas
+    Given el actor establece el endpoint para obtener la lista de booking
     When el actor envia una solicitud GET
     Then el codigo de respuesta deberia ser 200
 
